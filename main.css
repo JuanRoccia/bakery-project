@@ -1,0 +1,61 @@
+* {
+	scroll-behavior: auto;
+}
+
+
+.navbar {
+	background: #f06fa1;
+}
+
+
+
+
+/*=================MENU===================*/
+#menu a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #3f3f3f;
+}
+
+/*===========INTRO=======*/
+
+.text {
+	text-decoration: underline overline #f06fa1;
+}
+
+/*============SLIDER============*/
+
+.carousel-inner {
+	max-height: 39rem;
+	object-fit: top;
+	object-position: top;
+}
+
+.carousel {
+	scroll-behavior: smooth;
+}
+
+/*============NOSOTROS==========*/
+
+.nosotros {
+	background: #f06fa1;
+}
+
+/*===========FORMULARIO=============*/
+
+.contactenos {
+	color: #fff;
+}
+
+.color-form {
+	background: #f06fa1;
+}
+
+/*=============MEDIA QUERIES PANTALLA SM==================*/
+
+@media (max-width: 768px) {
+	#intro {
+		width: 90% !important;
+		color: black
+	}
+}
